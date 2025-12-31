@@ -1,0 +1,110 @@
+/* ================= RESET ================= */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= BODY ================= */
+body{
+  height: 100vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= PASSWORD DISPLAY ================= */
+.inputbox{
+  width: 85%;
+  height: 50px;
+  background: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+#display{
+  width: 70%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 25px;
+}
+
+#copy{
+  width: 30px;
+  cursor: pointer;
+}
+
+/* ================= MAIN CONTAINER ================= */
+.container{
+  width: 85%;
+  background: #212121;
+  color: white;
+  padding: 12px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  user-select: none;
+}
+
+/* ================= LENGTH SECTION ================= */
+.top{
+  display: flex;
+  flex-direction: column;
+}
+
+.top1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.top1 span{
+  font-size: 22px;
+  color: #2ECC71;
+}
+
+/* ================= OPTIONS ================= */
+.options{
+  display: flex;
+  gap: 10px;
+}
+
+/* ================= STRENGTH & BUTTON ================= */
+.lastbox{
+  width: 100%;
+}
+
+#strength{
+  width: 100%;
+  height: 40px;
+  background: black;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+#generate{
+  width: 100%;
+  height: 40px;
+  background: #2ECC71;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* ================= FORM CONTROLS ================= */
+input[type="checkbox"],
+input[type="range"]{
+  accent-color: #2ECC71;
+}
